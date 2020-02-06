@@ -1,9 +1,3 @@
-I have implemented it on heroku here is the link:
-
-```
-    fafadgaeg
-```
-
 ## First-time setup
 
 1.  Make sure Python 3.7x and Pipenv are already installed. [See here for help](https://djangoforbeginners.com/initial-setup/).
