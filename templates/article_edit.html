@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Edit article
+{% endblock title %}
+
+{% block content %}
+    <h2>Edit article</h2>
+    <form action="" method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button class="btn btn-warning" type="submit">Save</button>
+    </form>
+    <br />
+    <p>Back to <a href="{% url 'article_list' %}">All article</a>.</p>
+{% endblock content %}
